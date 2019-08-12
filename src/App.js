@@ -7,8 +7,8 @@ function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
   const [hScore, setHScore] = useState(12);
   const [aScore, setAScore] = useState(7);
-  const [hTeam, setHTeam] = useState("Vikings");
-  const [aTeam, setATeam] = useState("Bears");
+  const [hTeam] = useState("Vikings");
+  const [aTeam] = useState("Bears");
   
 
   function handleScore(team, score) {
